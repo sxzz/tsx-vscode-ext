@@ -1,0 +1,17 @@
+{
+  "name": "tsx-vscode-ext",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^9.8.0",
+    "tsx": "^4.16.2"
+  }
+}
