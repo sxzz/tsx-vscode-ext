@@ -1,5 +1,11 @@
 import { tsImport } from 'tsx/esm/api'
 
-await tsImport('./foo.ts', import.meta.url)
+console.log(process.version)
+
+try {
+  await tsImport('./foo.ts', import.meta.url)
+} catch (err) {
+  console.log(err)
+}
 
 export default []
